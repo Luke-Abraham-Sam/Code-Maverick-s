@@ -1,0 +1,126 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Body Styling */
+body {
+  background-image: url("https://images.squarespace-cdn.com/content/v1/5bac99efb2cf79a76d80781d/cae8820d-1a97-4c27-93bd-bb7bd63f13f8/3.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+
+/* Header */
+header {
+  text-align: center;
+  margin-bottom: 40px;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 30px 45px;
+  border-radius: 20px;
+}
+
+header h1 {
+  font-size: 2rem;
+  color: #0077b6;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+header p {
+  font-size: 1rem;
+  color: #333;
+}
+
+/* Form Section */
+form {
+  background: #fff;
+  padding: 25px 30px;
+  border-radius: 16px;
+  box-shadow: 0px 8px 25px rgba(0,0,0,0.15);
+  width: 450px;
+  max-width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+select {
+  width: 100%;
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+  outline: none;
+  margin-bottom: 15px;
+  transition: border 0.3s;
+}
+
+select:focus {
+  border: 1px solid #0077b6;
+  box-shadow: 0 0 8px rgba(0,119,182,0.3);
+}
+
+/* Buttons */
+button {
+  padding: 12px 20px;
+  background: #0077b6;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  width: 100%;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: #023e8a;
+  transform: translateY(-2px) scale(1.02);
+  box-shadow: 0px 6px 20px rgba(0,0,0,0.25);
+}
+
+/* Output Box */
+#interactionResult {
+  margin-top: 20px;
+  padding: 25px;
+  width: 450px;
+  background: rgba(255,255,255,0.95);
+  border-left: 5px solid #0077b6;
+  border-radius: 16px;
+  box-shadow: 0px 8px 20px rgba(0,0,0,0.15);
+  text-align: left;
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.5;
+}
+
+#interactionResult p {
+  background: #e6f0ff;
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid #cce5ff;
+  box-shadow: inset 0 2px 4px rgba(0,0,0,0.05);
+}
+
+#interactionResult h2 {
+  color: #0077b6;
+  margin-bottom: 12px;
+  font-weight: 600;
+}

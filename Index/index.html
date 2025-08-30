@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Medication Safety Monitor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>💊 Medication Safety Monitor</h1>
+      <p>Check for interactions between medicines and common foods</p>
+    </header>
+
+    <form id="interactionForm">
+      <label for="medicine">Select Medicine:</label>
+      <select id="medicine" required>
+        <option value="">--Choose Medicine--</option>
+        <option value="Aspirin">Aspirin</option>
+        <option value="Paracetamol">Paracetamol</option>
+        <option value="Ibuprofen">Ibuprofen</option>
+        <option value="Amoxicillin">Amoxicillin</option>
+        <option value="Metformin">Metformin</option>
+        <option value="Atorvastatin">Atorvastatin</option>
+        <option value="Omeprazole">Omeprazole</option>
+        <option value="Loratadine">Loratadine</option>
+        <option value="Salbutamol">Salbutamol</option>
+        <option value="Prednisone">Prednisone</option>
+      </select>
+
+      <label for="food">Select Food:</label>
+      <select id="food" required>
+        <option value="">--Choose Food--</option>
+      </select>
+
+      <button type="submit">Check Interaction</button>
+    </form>
+
+    <div id="interactionResult"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
